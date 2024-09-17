@@ -43,7 +43,7 @@ export default function Details() {
             Justa Troca
           </h3>
           <a href="#" target="_blank" rel="noopener noreferrer" className="">
-            <LinkSimpleHorizontal size={22} weigth="bold" />
+            <LinkSimpleHorizontal size={22} weight="bold" />
           </a>
         </div>
         <div className="text-[#858585] dark:text-[#eee]">
@@ -51,16 +51,10 @@ export default function Details() {
           matteriais ou serviços
         </div>
 
-        <div className="">
-          <h1>Habilidades</h1>
-          <div className="">
-            <ul className="list-disc list-inside">
-              <li>React</li>
-              <li>Next.js</li>
-              <li>Tailwind CSS</li>
-              <li>Node.js</li>
-              <li>PostgreSQL</li>
-            </ul>
+        <div className="flex flex-col">
+          <h1 className="font-bold text-lg">Habilidades</h1>
+          <div className="flex flex-wrap gap-6">
+            <span className=""></span>
           </div>
         </div>
       </main>
